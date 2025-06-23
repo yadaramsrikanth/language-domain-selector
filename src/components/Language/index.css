@@ -1,0 +1,84 @@
+.language-container{
+    width: 30%;
+   
+    background-color: #F4F6FC;
+    min-height: 120vh;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+    
+}
+
+.language-top-container{
+    background: linear-gradient(to right,#0077bf,#6f42c1 );
+    height:80px;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+  
+  
+}
+.preferneces-para{
+    text-align: center;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 18px;
+    margin-top: 20px;
+}
+.languages-heading{
+    font-size: 16px;
+    color: #212121;
+    padding: 20px;
+}
+input{
+    border: none;
+    
+    width: 100%;
+    outline: none;
+     margin-left: 10px;
+}
+input::placeholder{
+    color: #5C5C5C;
+    font-size: 16px;
+   font-family: "Roboto";
+}
+.search-container{
+    background-color: white;
+    height: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 0px 5px 15px 15px;
+    width: 90%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.languages-cards-container{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.next-button{
+    background: linear-gradient(to right,#0077bf,#6f42c1 );
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    align-self: center;
+    padding: 15px;
+    font-weight: 700;
+}
+.skip-para{
+    font-size: 16px;
+    font-family: "Roboto";font-weight: 400;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}

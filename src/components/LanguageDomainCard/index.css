@@ -1,0 +1,33 @@
+.language-list-card{
+    background-color: white;
+    width: 39%;
+    height: 120px;
+   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+   margin: 10px;
+   border-radius: 12px;
+   padding: 18px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+
+.language-url{
+    height: 60px;
+    width: 50px;
+}
+
+.checkbox-input{
+    align-self: flex-start;
+}
+.language-checkbox-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.language-name-in-card{
+    font-size: 12px;
+    font-family: "Roboto";
+
+}
