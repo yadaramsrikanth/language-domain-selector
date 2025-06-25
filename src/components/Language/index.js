@@ -23,9 +23,10 @@ const Language=()=>{
 
 
     return <div className="language-container col-12 col-sm-6 col-md-4 col-lg-3">
-        <div className="language-top-container">
+       
             <p className="preferneces-para">Preferences</p>
-        </div>
+           
+        <div className="language-top-container">
         <h3 className="languages-heading">What’s your  preferred Languages?</h3>
         <div className="search-container">
         <IoSearch size={25}/>
@@ -41,6 +42,7 @@ const Language=()=>{
     <button className="next-button">Next</button>
     <p className="skip-para">Skip For Now</p>
     </div>
+     </div> 
 }
 
 export default Language
